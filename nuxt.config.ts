@@ -27,7 +27,11 @@ export default defineNuxtConfig({
         },
     },
     modules:[
-        ['nuxt-swiper']
-    ]
+        ['nuxt-swiper'],
+    ],
+    swiper:{
+        prefix: 'Swiper',
+        styleLang: 'css'
+    }
 
 })
