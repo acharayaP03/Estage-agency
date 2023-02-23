@@ -21,12 +21,13 @@ export default defineNuxtConfig({
                 },
             ],
             link:[
-                { rel: "stylesheet" , href: "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"}
+                { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700'},
+                { rel: "stylesheet" , href: "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"},
             ],
-            script:[
-                { src: "bootstrap/dist/js/bootstrap.bundle.min.js" }
-            ]
         },
     },
+    modules:[
+        ['nuxt-swiper']
+    ]
 
 })
