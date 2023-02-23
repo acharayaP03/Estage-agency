@@ -20,7 +20,7 @@
     "@types/bootstrap": "^5.2.6",
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.3",
-    "sass": "^1.58.3",
-    "swiper": "^9.0.5"
+    "nuxt-swiper": "^1.0.0",
+    "sass": "^1.58.3"
   }
 }
